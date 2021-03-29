@@ -1,0 +1,218 @@
+.ian_bg {
+	width: 500px;
+	height: 350px;
+	padding: 10px;
+	border: 10px solid #ddd;
+	background-color: #fff;
+	}
+	
+.ian_title {
+	width: 480px;
+	height: 20px;
+	padding: 5px 10px 5px 10px;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	color: #669e6f;
+	text-transform: uppercase;
+	overflow: hidden;
+	}
+
+.ian_timeline {
+	width: 490px;
+	height: 310px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	}
+
+.ian_holder { 
+	width: 130px;
+	height: 250px;
+	margin-left: 5px;
+	margin-top: 3px;
+	display: inline-block; 
+	vertical-align: middle;
+	}	
+
+.ian_imageholder {
+	width: 130px;
+	height: 210px;
+	display: inline-block; 
+	vertical-align: middle;
+	z-index: 1; position: relative;
+	}
+	
+.ian_picbox {
+	width: 130px;
+	height: 200px;
+	background: #fff;
+	z-index: 2; position: relative;
+	}
+
+.ian_picbox img {
+	width: 130px;
+	height: 200px;
+	z-index: 3; position: relative;
+	object-fit: cover; object-position: center; 
+	opacity: 0.8;
+	}
+
+.ian_arrow {
+	width: 130px;
+	height: 20px;
+	margin-top: -20px;
+	z-index: 4; position: relative;
+	}
+	
+.ian_picblock {
+	width: 50px;
+	height: 20px;
+	background-color: #fff;
+	display: inline-block; 
+	vertical-align: middle;
+	z-index: 5; position: relative;
+	}
+	
+.ian_left {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 0 0 20px;
+	border-color: transparent transparent transparent #fff;
+	display: inline-block; 
+	vertical-align: middle;
+	margin-left: -4px;
+	margin-right: -2px;
+	z-index: 6; position: relative;
+	}
+
+.ian_right {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 20px 20px;
+	border-color: transparent transparent #fff transparent;
+	display: inline-block; 
+	vertical-align: middle;
+	margin-right: -4px;
+	margin-left: -2px;
+	z-index: 6;
+	}
+
+.ian_caption {
+	width: 113px;
+	height: 80px;
+	padding: 5px;
+	margin-top: -5px;
+	font-family: Calibri;
+	font-size: 10px;
+	color: #222;
+	text-align: justify;
+	text-transform: uppercase;
+	line-height: 100%;
+	overflow-x: visible;
+	overflow-y: scroll;
+	white-space: normal;
+	}
+
+.ian_caption b {
+	color: #75a77d;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	}
+	
+.ian_caption i {
+	color: #84b18b;
+	text-decoration: none;
+	letter-spacing: -1px;
+	}
+	
+.ian_caption a {
+	color: #75a77d;
+	font-size: 11px;
+	text-decoration: none;
+	}
+	
+.ian_timeline::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.ian_timeline::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+.ian_timeline::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border: 4px none #ffffff;
+  border-radius: 15px;
+}
+.ian_timeline::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.ian_timeline::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+.ian_timeline::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px solid #ffffff;
+  border-radius: 50px;
+}
+.ian_timeline::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+.ian_timeline::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+.ian_timeline::-webkit-scrollbar-corner {
+  background: transparent;
+}
+  
+.ian_caption::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.ian_caption::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+.ian_caption::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border: 4px none #ffffff;
+  border-radius: 15px;
+}
+.ian_caption::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.ian_caption::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+.ian_caption::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px solid #ffffff;
+  border-radius: 50px;
+}
+.ian_caption::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+.ian_caption::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+.ian_caption::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.ian_papable {
+	width: 50px;
+	height: 10px;
+	font-size: 10px;
+	color: #ddd;
+	}
+	
+.ian_papable a {
+	font-size: 10px;
+	color: #ddd;
+	text-decoration: none;
+	}
